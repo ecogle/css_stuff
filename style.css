@@ -11,7 +11,7 @@ div{
     padding: 10px;
     margin: 10px;
     float: left;   
-    background-color: cadetblue;
+    
     
 }
 
@@ -47,9 +47,33 @@ div{
     border: 1px black solid;
     padding: 10px;
     margin: 10px;
-    background-color: rgb(179, 53, 158);
+    
     float: left;
     
+}
+.article{
+    width:40%;
+    height:200px;
+    
+    margin-top:30px;
+    margin-left:40px;
+}
+.article img{
+    padding:5px;
+    float: left;
+}
+.stationary{
+    position: relative;
+    width: 160px;
+    height: 100px;
+    top: 30px;
+    left: 40px;
+
+
+}
+.stationary p:first-letter{
+    font-weight: bold;
+    color:purple;
 }
 .topmenu{
     border: 0px;
