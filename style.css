@@ -54,7 +54,7 @@ div{
 .article{
     width:40%;
     height:200px;
-    
+    background-color: lightseagreen;
     margin-top:30px;
     margin-left:40px;
 }
@@ -110,3 +110,4 @@ p.title{
     margin-right: auto;
     text-align: center;
 }
+
