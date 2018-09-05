@@ -1,0 +1,88 @@
+div{
+   margin: 5px; 
+   border: 1px black solid;
+   border-radius: 0.8em;
+   padding:5px;
+   color:black;
+}
+.main{
+    height: 600px;
+    width: 20%;    
+    padding: 10px;
+    margin: 10px;
+    float: left;   
+    background-color: cadetblue;
+    
+}
+
+.main div{
+    width:30%;
+    height:10%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    
+}
+.main div:hover{
+    text-decoration: black dotted underline;
+    background-color: white;
+    color:black;
+}
+
+.one{
+    background-color: lightblue;    
+}
+.two{
+    background-color: lightcoral;    
+}
+.three{
+    background-color: lightseagreen;
+}
+.four{
+    background-color: aquamarine;
+}
+.content{
+    width: 70%;
+    height: 600px;
+    border: 1px black solid;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(179, 53, 158);
+    float: left;
+    
+}
+.topmenu{
+    border: 0px;
+}
+.topmenu div{
+    width: 20%;
+
+    display: inline;
+}
+a{
+    text-decoration: none;
+}
+.topmenu div:hover{
+    color:blue;
+    background-color: whitesmoke;
+    text-decoration: blue solid underline;
+}
+
+p.title{
+    background-color: lightcoral;
+    width:30%;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 25pt;
+    font-weight: bold;
+    border-radius: 0.8em;
+
+}
+#pagetext{
+    width: 50%;
+    background-color: green;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
